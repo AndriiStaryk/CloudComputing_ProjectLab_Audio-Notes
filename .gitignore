@@ -1,0 +1,33 @@
+# Environment variables
+.env
+
+# Google Cloud credentials
+*.json
+!package.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Audio files and data
+audio_files/
+notes_data/
+*.mp3
+*.mp4
+*.wav
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
